@@ -5,11 +5,11 @@ this project  consists of three main operations
     tensorflow model.  
   2. inference tensorflow  model with cpp,and  use Eigen3 lib carefully.  
   3. note that such as  batch_size,the operation that save model in  gpu or cpu ,must be same as the config you set in the python call.
-enviroment:  
+enviroment:   
 
-  tensorflow c++ library:(https://github.com/fo40225/tensorflow-windows-wheel)  this project's tf version 1.8.0 avx2 gpu.
-  cuda(if use gpu): cuda 9.1  
-  protobuf(if use gpu)： protobuf 3.6  
+  tensorflow c++ library:(https://github.com/fo40225/tensorflow-windows-wheel)  this project's tf version 1.8.0 avx2 gpu.  
+  cuda(if use gpu): cuda 9.1   
+  protobuf(if use gpu)： protobuf 3.6   
   opencv: 3.3.0  
   system : win10  
   gui tool :qt 5.8.0  

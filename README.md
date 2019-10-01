@@ -19,7 +19,7 @@
     > download the front-end keras  mask_rcnn model and install it  https://github.com/matterport/Mask_RCNN  
     > download this https://github.com/parai/Mask_RCNN for converting keras model to tensorflow model 
     > modify matterport's Mask_RCNN/samples/coco/coco.py  
-     ![Image](https://raw.githubusercontent.com/CasonTsai/MaskRcnn_tensorflow_cpp_inference/master/images/1.jpg)
+     ![Image](https://github.com/CasonTsai/MaskRcnn_tensorflow_cpp_inference/blob/master/images/1.jpg)
     
   
     

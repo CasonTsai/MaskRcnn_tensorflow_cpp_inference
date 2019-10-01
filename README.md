@@ -29,7 +29,7 @@
    
     > 3.modify the  class nums  
     
-   ![Image](https://github.com/CasonTsai/MaskRcnn_tensorflow_cpp_inference/blob/master/images/2.png)
+   ![Image](https://github.com/CasonTsai/MaskRcnn_tensorflow_cpp_inference/blob/master/images/3.png)
     
     
   

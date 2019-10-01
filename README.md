@@ -27,9 +27,16 @@
     
    ![Image](https://github.com/CasonTsai/MaskRcnn_tensorflow_cpp_inference/blob/master/images/2.png)
    
-    > 3.modify the  class nums  
+    > 3.modify the  class nums ,and IMAGE_MIN_DIM ,IMAGE_MAX_DIM in class CcocoConfig,int this project IMAGE_MIN_DIM = 512,IMAGE_MAX_DIM = 512,class nums is 1+6,these parameter according to yours
     
    ![Image](https://github.com/CasonTsai/MaskRcnn_tensorflow_cpp_inference/blob/master/images/3.png)
+   
+    > 4.  run the coco.py ,we can get the keras model(model+weight),this project's keras model name is mask_rcnn_whole_batch32_new20.h5  
+    > 5.  begin convert keras model to tensorflow model, the following operations are mainly make some config in `parai's Mask_RCNN-master/samples/demo.py` be same as  `matterport's Mask_RCNN/samples/coco/coco.py` 
+    >> 5.1 modify parameter NUM_CLASSES and IMAGE_MIN_DIM  IMAGE_MAX_DIM of  CocoConfig in  `parai's Mask_RCNN-master/samples/demo.py` 
+    
+   ![Image](https://github.com/CasonTsai/MaskRcnn_tensorflow_cpp_inference/blob/master/images/4.png)  
+   ![Image](https://github.com/CasonTsai/MaskRcnn_tensorflow_cpp_inference/blob/master/images/5.png)
     
     
   

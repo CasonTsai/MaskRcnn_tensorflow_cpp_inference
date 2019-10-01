@@ -19,6 +19,10 @@
     > download the front-end keras  mask_rcnn model and install it  https://github.com/matterport/Mask_RCNN  
     > download this https://github.com/parai/Mask_RCNN for converting keras model to tensorflow model 
     > modify matterport's Mask_RCNN/samples/coco/coco.py  
+   ![Image](https://github.com/CasonTsai/MaskRcnn_tensorflow_cpp_inference/blob/master/images/1.png)
+    > modify inference config ,especially parameter GPU_COUNT and IMAGES_PER_GPU,these two parameter must be same as that of parai's Mask_RCNN-master/samples/demo.py ,otherwise will get error. parameter  IMAGES_PER_GPU   involve the image nums when we use batch inference 
+    ,mine is 32 , 1080 ti could handle  32 images with  size is  512*512.  
+   ![Image](https://github.com/CasonTsai/MaskRcnn_tensorflow_cpp_inference/blob/master/images/2.png)
     
   
     

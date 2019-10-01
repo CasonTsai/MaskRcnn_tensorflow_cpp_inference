@@ -33,10 +33,20 @@
    
     > 4.  run the coco.py ,we can get the keras model(model+weight),this project's keras model name is mask_rcnn_whole_batch32_new20.h5  
     > 5.  begin convert keras model to tensorflow model, the following operations are mainly make some config in `parai's Mask_RCNN-master/samples/demo.py` be same as  `matterport's Mask_RCNN/samples/coco/coco.py` 
-    >> 5.1 modify parameter NUM_CLASSES and IMAGE_MIN_DIM  IMAGE_MAX_DIM of  CocoConfig in  `parai's Mask_RCNN-master/samples/demo.py` 
+    >>  5.1 modify parameter NUM_CLASSES and IMAGE_MIN_DIM  IMAGE_MAX_DIM of  CocoConfig in  `parai's Mask_RCNN-master/samples/demo.py` 
     
    ![Image](https://github.com/CasonTsai/MaskRcnn_tensorflow_cpp_inference/blob/master/images/4.png)  
-   ![Image](https://github.com/CasonTsai/MaskRcnn_tensorflow_cpp_inference/blob/master/images/5.png)
+   ![Image](https://github.com/CasonTsai/MaskRcnn_tensorflow_cpp_inference/blob/master/images/5.png)  
+   
+    >>  5.2 modify inferenceConfig in  `parai's Mask_RCNN-master/samples/demo.py`  
+   ![Image](https://github.com/CasonTsai/MaskRcnn_tensorflow_cpp_inference/blob/master/images/6.png)  
+   ![Image](https://github.com/CasonTsai/MaskRcnn_tensorflow_cpp_inference/blob/master/images/7.png)    
+   
+    >>  5.3 modify `parai's Mask_RCNN-master/scripts/export_model.py` 
+   ![Image](https://github.com/CasonTsai/MaskRcnn_tensorflow_cpp_inference/blob/master/images/8.png)  
+    
+    >>  5.4 run `parai's Mask_RCNN-master/samples/demo.py` we will get the mask_rcnn tensorflow model finally,tf model file name in this project's is mask_rcnn_batch32_new20.pb ,in this step ,we finish conveter the keras model into tensorflow model
+    
     
     
   

@@ -45,7 +45,7 @@
     >>  5.3 modify `parai's Mask_RCNN-master/scripts/export_model.py` 
    ![Image](https://github.com/CasonTsai/MaskRcnn_tensorflow_cpp_inference/blob/master/images/8.png)  
     
-    >>  5.4 run `parai's Mask_RCNN-master/samples/demo.py` we will get the mask_rcnn tensorflow model finally,tf model file name in this project's is mask_rcnn_batch32_new20.pb ,in this step ,we finish conveter the keras model into tensorflow model
+    >>  5.4 run `parai's Mask_RCNN-master/samples/demo.py` we will get the mask_rcnn tensorflow model finally,tf model file name in this project's is mask_rcnn_batch32_new20.pb ,in this step ,we finish conveter the keras model into tensorflow model,we  could  use `parai's Mask_RCNN-master/infere_from_pb.py` to test the pb file to check  whether result is correcet or not
     
     
     

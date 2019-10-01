@@ -47,6 +47,14 @@
     
     >>  5.4 run `parai's Mask_RCNN-master/samples/demo.py` we will get the mask_rcnn tensorflow model finally,tf model file name in this project's is mask_rcnn_batch32_new20.pb ,in this step ,we finish conveter the keras model into tensorflow model,we  could  use `parai's Mask_RCNN-master/infere_from_pb.py` to test the pb file to check  whether result is correcet or not
     
+  ### c++ inference  tensorflow model 
+    > 1.  all we need cpp file are `data_format.h,detectbatch.cpp ,detectbatch.h`   
+    > 2.  the main.cpp is show how to use `data_format.h,detectbatch.cpp ,detectbatch.h` to detect the image 
+  
+  ![Image](https://github.com/CasonTsai/MaskRcnn_tensorflow_cpp_inference/blob/master/images/result.png)  
+   
+  
+    
     
     
   

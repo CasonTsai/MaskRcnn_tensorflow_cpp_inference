@@ -14,3 +14,13 @@
   >gui tool :qt 5.8.0  
   >compile tool : msvc2015  
   
+## tutorials:
+  ### keras model to tensorflow model
+    > download the front-end keras  mask_rcnn model and install it  https://github.com/matterport/Mask_RCNN  
+    > download this https://github.com/parai/Mask_RCNN for converting keras model to tensorflow model 
+    > modify matterport's Mask_RCNN/samples/coco/coco.py  
+    
+  
+    
+    
+  

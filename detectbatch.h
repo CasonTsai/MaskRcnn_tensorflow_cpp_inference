@@ -66,19 +66,19 @@ public:
                                       };//网络输出的tensor的名字,对应于模型
     int input_width;//输入tensor的宽度
     int input_height;//输入tensor的高度
-    int input_channels=3;//输入tensor的通道
-    int inputImg_w=512;//输入图像的宽度
-    int inputImg_h=512;//输入图像的高度
-    int inputImg_c=3;//输入图像的通道
+    int input_channels=3;//输入tensor的通道 input tensor channels,same as image channels
+    int inputImg_w=512;//输入图像的宽度 image width
+    int inputImg_h=512;//输入图像的高度 image height
+    int inputImg_c=3;//输入图像的通道 image channels
     float image_meta[19]={};//for image_meta
     int backbone_shape[5][2];//for backbone_shape
-    int _anchor_cache[2]={};//用于缓存
+    int _anchor_cache[2]={};//用于缓存 for cache 
     std::vector<tensorflow::Tensor> outputs;
     std::vector<imageDetectInfo> outputsInfo;
 
     bool session_open=false;
-    tensorflow::Session* session;//tensorflow 的session
-    tensorflow::Session *session_gpuConfig=nullptr;//设置gpu的config
+    tensorflow::Session* session;//tensorflow'ssession
+    tensorflow::Session *session_gpuConfig=nullptr;//设置gpu的config gpu's config
     tensorflow::GraphDef graphdef;//模型的计算图
     void initConfig(int input_w, int input_h);
     std::vector<cv::Mat> inputImg_list;
@@ -88,7 +88,7 @@ public:
     Eigen::MatrixXf finalBox;
     Eigen::MatrixXf finalBox_norm;
     Eigen::MatrixXf finalboxMat;
-    int batch_size=12;
+    int batch_size=12; //batch size 
     int batch_num=0;//how many batches
     int batch_mod=0;//the rest images
     void unmold_detections(std::vector<tensorflow::Tensor>&output_tensors,std::vector<imageDetectInfo> &output_vec);

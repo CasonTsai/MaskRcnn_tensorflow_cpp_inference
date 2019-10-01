@@ -8,7 +8,7 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    detectBatch detectBatchTmp;//模型预测器
+    detectBatch detectBatchTmp;//模型预测器 
     std::vector<tensorflow::Tensor> outputs;//用于获取预测结果的tensor类型容器
     std::vector<imageDetectInfo> outputsInfo;//存储从output tensor提取出来的输出
     int batch_size =32;//batch要与把keras模型转tensorflow模型时设置的数目一致,我的是32

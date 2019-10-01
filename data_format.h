@@ -11,7 +11,7 @@ const size_t ColorTable[50]={0xBBFFFF,0x00868B,0x00FF00,0x008B45,
                   0xFF8247,0xFF3030,0xFF69B4,0x0000FF,
                   0x00688B
 
-                  };//颜色对照表
+                  };//颜色对照表 color table
 
 
 struct boxForXml{
@@ -19,21 +19,21 @@ struct boxForXml{
     float scores=0.f;
 
 
-};
+};//boxes info for creating  xml file 
 struct boxInfo{
     int y1,x1,y2,x2;
     int classId=0;
     float scores=0.f;
     int boxNum=-1;
-};
+};//boxes info ,the 'boxNum' 
 
 struct imageDetectInfo{
     int imageWidth=0;//not yet
     int imageHeight=0;//not yet
     int imageNum=-1;
-    std::vector<boxInfo> detectInfo;
+    std::vector<boxInfo> detectInfo;//save the detected boxes info
 
-};
+};//save detect result
 
 
 

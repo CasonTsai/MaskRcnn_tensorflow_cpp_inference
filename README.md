@@ -1,5 +1,4 @@
 # MaskRcnn_tensorflow_cpp_inference
-# If you have any good Suggestions, please give them to me. I would really appreciate it
 ## inference mask_rcnn model with tensorflow c++ api
 >this project  consists of three main operations
   >>1. keras model to tensorflow model: because we use front-end keras call the backend tensorflow,so we need to convert keras model to tensorflow model.  
@@ -53,9 +52,8 @@
     > 2.  the main.cpp is show how to use `data_format.h,detectbatch.cpp ,detectbatch.h` to detect the image 
   
   ![Image](https://github.com/CasonTsai/MaskRcnn_tensorflow_cpp_inference/blob/master/images/result.png)  
-   
   
-    
+ ## If you have any good Suggestions, please give them to me. I would really appreciate it
     
     
   

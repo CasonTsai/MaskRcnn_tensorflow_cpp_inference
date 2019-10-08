@@ -57,6 +57,8 @@
   ![Image](https://github.com/CasonTsai/MaskRcnn_tensorflow_cpp_inference/blob/master/images/result.png)  
   
  ## If you have any good Suggestions, please give them to me. I would really appreciate it
+ 
+ ### SSD deployment with c/c++  is currently under way
     
     
   

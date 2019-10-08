@@ -1,5 +1,7 @@
 # MaskRcnn_tensorflow_cpp_inference
 ## inference mask_rcnn model with tensorflow c++ api
+
+'Because of the work, the segmentation will catch up later'
 >this project  consists of three main operations
   >>1. keras model to tensorflow model: because we use front-end keras call the backend tensorflow,so we need to convert keras model to tensorflow model.  
   >>2. inference tensorflow  model with cpp,and  use `Eigen3` lib carefully.  
